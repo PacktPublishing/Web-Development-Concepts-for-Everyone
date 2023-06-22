@@ -1,0 +1,64 @@
+{
+
+  "name": "authn-authz-sample",
+
+  "version": "1.0.0",
+
+  "main": "index.js",
+
+  "scripts": {
+
+    "test": "echo \"Error: no test specified\" && exit 1",
+
+    "start": "node server/index.js"
+
+  },
+
+  "repository": {
+
+    "type": "git",
+
+    "url": "git+https://github.com/scottbromander/authn-authz-sample.git"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "bugs": {
+
+    "url": "https://github.com/scottbromander/authn-authz-sample/issues"
+
+  },
+
+  "homepage": "https://github.com/scottbromander/authn-authz-sample#readme",
+
+  "description": "",
+
+  "dependencies": {
+
+    "bcrypt": "^5.0.1",
+
+    "cookie-session": "^1.4.0",
+
+    "cors": "^2.8.5",
+
+    "dotenv": "^10.0.0",
+
+    "express": "^4.17.1",
+
+    "jquery": "^3.6.0",
+
+    "passport": "^0.5.0",
+
+    "passport-local": "^1.0.0",
+
+    "passport-spotify": "^2.0.0",
+
+    "pg": "^8.7.1"
+
+  }
+
+}
+

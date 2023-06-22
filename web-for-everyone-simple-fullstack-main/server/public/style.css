@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(26, 26, 26);
+  color: rgb(226, 226, 226);
+  /* text-align: center; */
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+button {
+  float: right;
+  margin-left: 10px;
+}
+
+input {
+  width: 80%;
+}
+
+.container,
+.container-newtask {
+  width: 60%;
+  margin: 0 auto;
+}
+
+.task {
+  margin-top: 30px;
+}
+
+.completed {
+  text-decoration: line-through;
+}

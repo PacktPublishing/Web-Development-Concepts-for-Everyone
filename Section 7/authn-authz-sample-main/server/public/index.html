@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <link rel="stylesheet" href="styles/style.css" />
+
+    <script src="vendors/jquery.min.js"></script>
+    <script src="scripts/client.js"></script>
+  </head>
+  <body>
+    <h1>Auth Example</h1>
+
+    <div class="warning"></div>
+
+    <div class="js-auth-container">
+      <form class="js-auth-form">
+        <input
+          type="text"
+          name="username"
+          id="js-form-username"
+          placeholder="username"
+          autocomplete="off"
+        />
+        <input
+          type="password"
+          name="password"
+          id="js-form-password"
+          placeholder="password"
+          autocomplete="off"
+        />
+      </form>
+      <button class="js-button-login">Login</button>
+      <button class="js-button-register">Register</button>
+    </div>
+
+    <div class="js-user-container"></div>
+    <div class="js-message-container"></div>
+  </body>
+</html>
